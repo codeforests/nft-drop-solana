@@ -1,0 +1,19 @@
+{
+    "name": "Color Cat",
+    "symbol": "",
+    "image": "0.png",
+    "properties": {
+      "files": [
+        {
+          "uri": "0.png",
+          "type": "image/png"
+        }
+      ],
+      "creators": [
+        {
+          "address": "4AEMNVJg1BF2o4a2Tceov3y6LSKt9AcgEvMJD9cL7u3a",
+          "share": 100
+        }
+      ]
+    }
+  }

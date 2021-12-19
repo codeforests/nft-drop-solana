@@ -1,0 +1,19 @@
+{
+    "name": "Halloween Cat",
+    "symbol": "",
+    "image": "1.png",
+    "properties": {
+      "files": [
+        {
+          "uri": "1.png",
+          "type": "image/png"
+        }
+      ],
+      "creators": [
+        {
+          "address": "4AEMNVJg1BF2o4a2Tceov3y6LSKt9AcgEvMJD9cL7u3a",
+          "share": 100
+        }
+      ]
+    }
+  }

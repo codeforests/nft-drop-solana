@@ -1,0 +1,19 @@
+{
+    "name": "Persian Cat",
+    "symbol": "",
+    "image": "2.png",
+    "properties": {
+      "files": [
+        {
+          "uri": "2.png",
+          "type": "image/png"
+        }
+      ],
+      "creators": [
+        {
+          "address": "4AEMNVJg1BF2o4a2Tceov3y6LSKt9AcgEvMJD9cL7u3a",
+          "share": 100
+        }
+      ]
+    }
+  }
