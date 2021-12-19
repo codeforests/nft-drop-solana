@@ -35,6 +35,8 @@ const CandyMachine = ({ walletAddress }) => {
   const [isMinting, setIsMinting] = useState(false);
   const [isLoadingMints, setIsLoadingMints] = useState(false);
 
+
+
   // Actions
   const fetchHashTable = async (hash, metadataEnabled) => {
     const connection = new web3.Connection(
@@ -281,6 +283,7 @@ const CandyMachine = ({ walletAddress }) => {
     return provider;
   };
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const getCandyMachineState = async () => { 
     const provider = getProvider();
     
@@ -353,12 +356,13 @@ const CandyMachine = ({ walletAddress }) => {
 
     }
     setIsLoadingMints(false);
-
   };
   
   useEffect(() => {
     getCandyMachineState();
-  }, []);
+  }, [getCandyMachineState]);
+
+
 
 
   const renderMintedItems = () => (
