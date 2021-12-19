@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import './CountdownTimer.css';
 
-const CountDownTimer = ( { dropDate }) => {
+const CountDownTimer = ( ) => {
 
     const [timerString, setTimerString] = useState('');
     
-    useEffect(() => {
+    useEffect(({ dropDate }) => {
         console.log('Setting interval...');
       
         // Use setInterval to run this piece of code every second

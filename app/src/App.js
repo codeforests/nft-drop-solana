@@ -5,7 +5,7 @@ import catIcon from './assets/cat_icon.png';
 import CandyMachine from './CandyMachine';
 
 // Constants
-const TWITTER_HANDLE = '_buildspace';
+const TWITTER_HANDLE = 'codeforests';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 
 const App = () => {
@@ -67,7 +67,7 @@ const App = () => {
     <div className="App">
       <div className="container">
         <div className="header-container">
-          <p className="header"><img className='cat-icon' src={catIcon}/>Adorable Kitty NFT</p>
+          <p className="header"><img alt="Kitty NFT" className='cat-icon' src={catIcon}/>Adorable Kitty NFT</p>
           <p className="sub-text">Mint your cutest kitty!</p>
           {!walletAddress && renderNotConnectedContainer()}
 

@@ -5,15 +5,13 @@ import { MintLayout, TOKEN_PROGRAM_ID, Token } from '@solana/spl-token';
 import { programs } from '@metaplex/js';
 import './CandyMachine.css';
 
-import CountdownTimer from '../CountdownTimer';
-
-
 import {
   candyMachineProgram,
   TOKEN_METADATA_PROGRAM_ID,
   SPL_ASSOCIATED_TOKEN_ACCOUNT_PROGRAM_ID,
 } from './helpers';
 import CountDownTimer from '../CountdownTimer';
+
 const {
   metadata: { Metadata, MetadataProgram },
 } = programs;
@@ -357,8 +355,7 @@ const CandyMachine = ({ walletAddress }) => {
     setIsLoadingMints(false);
 
   };
-
-
+  
   useEffect(() => {
     getCandyMachineState();
   }, []);
@@ -376,6 +373,8 @@ const CandyMachine = ({ walletAddress }) => {
       </div>
     </div>
   );
+
+
 
   const renderDropTimer = () => {
 
